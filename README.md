@@ -1,2 +1,2 @@
 # Joke-Generator
-You can get Jokes just clicking the button "Get Jokes" 
+You can get Jokes just by clicking the button "Generate Jokes" 
