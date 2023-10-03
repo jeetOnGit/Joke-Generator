@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+body {
+  background-color: #E9B824;
+}
+.container {
+  margin: 100px auto;
+  width: 400px;
+  padding: 30px 20px;
+  border-radius: 30px;
+  background-color: #d53535;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  box-shadow: 10px 10px 16px -6px rgba(0,0,0,0.52);
+
+  .elements {
+    margin: 10px auto;
+    img {
+      width: 65px;
+    }
+  
+    button {
+      cursor: pointer;
+      background-color: #181716;
+      padding: 12px 40px;
+      border: none;
+      border-radius: 25px;
+      color: white;
+      font-size: 20px;
+      box-shadow: 10px 10px 32px -8px rgba(0,0,0,0.66);
+    }
+    p{
+      text-align: center;
+    }
+  }
+
+  .joke{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    #ques{
+      margin-bottom: 20px;
+    }
+  }
+}
